@@ -44,6 +44,7 @@ _MXNET_LAYER_REGISTRY  = {
 _MXNET_SKIP_LAYERS = [
     '_MulScalar',
     'Dropout',
+    '_copy',
     '_minus_scalar',
     '_mul_scalar',
 ]
